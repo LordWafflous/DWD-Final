@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+#header{
+    height: 15vh;
+    background-color: aliceblue;
+    
+}
+#header-top{
+    height: 25%;
+    background-color: black;
+}
+
+
+#content{
+    min-height: 75vh;
+    background-color: aqua;
+}
+
+#footer{
+    height: 25vh;
+    background-color: blue;
+   
+}
+
+.footer-section{
+    background-color: brown;
+}
+
+.mid-fill{
+    flex-grow: 1;
+}
