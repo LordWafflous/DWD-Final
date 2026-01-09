@@ -4,8 +4,7 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    background-color: white;
-    
+    background-color: pink; 
 }
 #header-top{
     position: relative;
@@ -16,8 +15,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .header-tab{
@@ -28,8 +25,13 @@
 }
 
 #content{
-    min-height: 75vh;
-    background-color: aqua;
+  
+    background-color: pink;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(240, 135, 153);
 }
 
 .center{
@@ -40,7 +42,7 @@
     text-align: center;
 }
 .center img{
-    height: 10vh;
+    height: 15vh;
 }
 
 .footer-center{
@@ -54,35 +56,39 @@
 #footer{
     
     height: auto;
-    background-color: blue;
-   
+    background-color: white;
 }
 
 .footer-section{
-    background-color: brown;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer-bottom{
     height: 5vh;
-    background-color: white;
+    background-color: pink;
+    color:white;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .mid-fill{
     flex-grow: 1;
+    background-color: white;
 }
 
-
-/* For the dropdown animation */
 .dropdown-menu {
     display: none;
     opacity: 0;
     transform: translateY(2rem);
     transition: opacity 0.5s ease, transform 0.5s ease;
+  
 }
 
 .dropdown:hover .dropdown-menu {
@@ -91,30 +97,46 @@
     transform: translateY(0);
 }
 
-
-.header-tab .dropdown .btn {
+.dropdown .btn {
     background-color: transparent !important; 
     border: none !important;
     color: #000 !important;
-     padding: 0.5rem 1rem !important; /* Adjust button size */
-    width: 100% !important; /* Makes button fill container */
+    padding: 0.5rem 1rem !important;
+    width: 100% !important;
 }
 
-
-.header-tab .dropdown .btn:focus {
+.dropdown .btn:focus{
     box-shadow: none !important;
 }
 
-
-.header-tab .dropdown .btn:hover {
+.dropdown .btn:hover{
     background-color: transparent !important; 
 }
 
-.header-tab .dropdown .dropdown-menu {
-    background-color: white;
-    border-radius: 0;
+.footer-center .btn, .footer-center .btn:focus{
+    background-color: pink;
     border: none;
 }
+
+.footer-center .btn:hover{
+    background-color: white;
+    color: #000;
+    border: none;
+}
+
+.dropdown .dropdown-menu,
+div.dropdown-menu,
+ul.dropdown-menu {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+}
+
+.nav-item .btn, .btn:hover, .btn:focus{
+    background-color: transparent;
+    border: none;
+}
+
 
 
 
