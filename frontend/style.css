@@ -25,7 +25,6 @@
 }
 
 #content{
-  
     background-color: pink;
 }
 
@@ -136,6 +135,131 @@ ul.dropdown-menu {
     background-color: transparent;
     border: none;
 }
+
+#shop-container{
+    background-color: pink;
+    border-radius: 2;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#shop-content{
+    background-color: white;
+    border-radius: 2;
+    height: 100%;
+    width: 120vh;
+}
+
+.card img{
+    object-fit: cover;
+    height: 25vh;
+}
+
+.card a{
+    background-color: rgb(255, 171, 202);
+    border: none;
+}
+.card a:hover{
+    background-color: rgb(255, 131, 152);
+    color: rgb(255, 255, 255);
+}
+
+.card{
+    background-color: rgb(255, 221, 227);
+    padding: 10;
+}
+
+#social-container{
+    background-color: pink;
+    height: auto;
+
+}
+#social-content{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    transition: transform 0.3s ease;
+}
+
+.social-card:hover {
+    transform: translateY(-5px);
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.instagram { background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); }
+.youtube { background: #FF0000; }
+
+
+.social-name {
+    color: #333;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:rgb(255, 128, 149) !important; /* Your brand color */
+    color: white !important;
+}
+
+#about-us
+{
+    background-color: white;
+    width: auto;
+}
+
+.badge
+{
+    background-color: rgb(255, 148, 166);
+}
+
+.text-pink
+{
+    color: rgb(255, 129, 150);
+}
+
+.bg-white
+{
+    background-color: white;
+}
+
+.chiikawa-bg
+{
+    background-color: rgb(255, 173, 187);
+}
+.hachiware-bg
+{
+    background-color: rgb(87, 168, 255);
+}
+.usagi-bg
+{
+    background-color: orange;
+}
+
+
+
+
 
 
 
